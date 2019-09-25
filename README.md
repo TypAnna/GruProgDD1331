@@ -12,6 +12,13 @@ Repository for the course DD1331 (Fundamentals of Programming in Python) consist
 * If a method and what it does cannot be described in a sentence - then it is too long!
 * Think about what could go wrong and handle edge cases.
 
+## Reusing code
+Reuse code as much as you can, and keep the duplication of code to a minimum. This reduces the amount of bugs, and makes the code easier to read.
+
+Reuse code by writing functions and classes. To use a function from one file in another file, we can import that file/function. Say we we have a file `approximations.py` with the function `approxSin()` in it. We have another file (in the same directory) called, let's say, `drawGraphs.py` in which we want to use `approxSin()`. We can then, in the top of the `drawGraphs.py`-file write `from approximation import approxSin`. We can that use `approxSin()` as we please.
+
+Another option would be to write `import approximation`. To use the `approxSin()` function, we would then instead need to write `approximation.approxSin()` to use the method.
+
 # Steps to follow when you are stuck
 1. Insert prints to see what the program actually does.
     - Draw - step by step - what your program does
