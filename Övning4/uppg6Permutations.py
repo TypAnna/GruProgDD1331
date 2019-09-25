@@ -1,7 +1,7 @@
 '''Okay so if I have time (I don't think I will ;_;) I will update with more
 comments explaining what is going on and why this works - but in the meantime
 it's a great exercise to think about and draw what happens step by step when
-we call the method with some list, say [1, 2, 3]
+we call the method with some list, say [1, 2, 3] :-)))))
 '''
 
 #Returns all permutations of a list
