@@ -1,6 +1,6 @@
 def funB(t, a):
     t[1] = "hej"
-    a[0][0] = "wow"
+    a[0][0] = ["wow"]
 
 def funA():
     t = ([1, 2], "myra")
